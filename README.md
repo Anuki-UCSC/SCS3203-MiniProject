@@ -6,19 +6,13 @@
  This is an instruction to build & run the Dockerfile of this project.
 
  Before building the docker image run:
- 
-  bash
-  mvn package
-  
+  <br><b> mvn package</b>
   
  Then, build the docker image with:
- bash
-  docker build -f src/main/docker/Dockerfile.jvm -t quarkus-demo .
+ <br><b> docker build -f src/main/docker/Dockerfile.jvm -t quarkus-demo </b>
   
-
  Then run the container using:
- bash
-  docker run -i --rm -p 8080:8080 quarkus-demo
+  <br><b>docker run -i --rm -p 8080:8080 quarkus-demo</b>
   
 
 ### step 2
